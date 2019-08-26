@@ -11,6 +11,8 @@ spacy = "*"
 tensorflow = "*"
 numpy = "*"
 sklearn = "*"
+tensorflow-hub = "*"
+scaly = "*"
 
 [requires]
 python_version = "3.7"
