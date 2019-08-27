@@ -13,6 +13,7 @@ numpy = "*"
 sklearn = "*"
 tensorflow-hub = "*"
 scaly = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
