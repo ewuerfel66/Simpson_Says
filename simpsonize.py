@@ -9,7 +9,7 @@ knn_search_file = open('knn_pickled.sav', 'rb')
 knn_search = pickle.load(knn_search_file)
 
 # Load Spacy Model
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_md')
 
 # Import Data
 lines = pd.read_csv('simpsons_script_lines.csv')

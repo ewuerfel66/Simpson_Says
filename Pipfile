@@ -8,6 +8,7 @@ pandas = "*"
 spacy = "*"
 sklearn = "*"
 joblib = "*"
+flask = "*"
 
 [dev-packages]
 
