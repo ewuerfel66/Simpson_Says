@@ -2,6 +2,7 @@ import pandas as pd
 from flask import Flask, jsonify, request
 import pickle
 import spacy
+import numpy as np
 
 
 # Load Search Model
