@@ -61,11 +61,11 @@ def search():
     search_results = find_quotes(search_request)
 
     # Send output back to Browser
-    output = {search_results[0][0]: search_results[0][1],
-              search_results[1][0]: search_results[1][1],
-              search_results[2][0]: search_results[2][1],
-              search_results[3][0]: search_results[3][1],
-              search_results[4][0]: search_results[4][1]}
+    output = {'one': search_results[0],
+              'two': search_results[1],
+              'three': search_results[2],
+              'four': search_results[3],
+              'five': search_results[4]}
     
     # Return a json
     return jsonify(results = output)
